@@ -1,0 +1,100 @@
+*{
+	background: #000000;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 350;
+	font-size: 28px;
+	line-height: 145%;
+}
+
+.alura{
+	margin-left: 10px;
+	padding-top: 10px;
+	width: 2.8%;
+}
+
+h2{
+	margin-left: 90px;
+	color: #FFFFFF;
+}
+
+main{
+	display: flex;
+	margin-bottom: 50px;
+	margin-left: 100px;
+}
+
+.text-area{
+	border-radius: 20px;
+	color: #FFFFFF;
+	margin-top: 80px;
+	text-transform: lowercase;
+}
+
+::placeholder{color: #FFFFFF;}
+	.text-area:focus {
+		outline: none;
+}
+
+.mensagem{
+	background: #FFFFFF;
+	background-image: url(boneco.png);
+	background-repeat: no-repeat;
+	border-radius: 20px;
+	margin-left: 98px;
+	margin-top: 20px;
+	padding-left: 20px;
+	position: absolute;
+
+}
+
+.lkdn{
+	margin-left: 50%;
+	width: 4%;
+}
+
+.mensagem:focus {
+	outline: none;
+}
+
+.botoes{
+	display: flex;
+	margin-top: 18px;
+}
+
+.bot-encriptar{
+	background-color: #FFFFFF;
+	border: 2px solid #0A3871;
+	border-radius: 24px;
+	color: #0A3871;
+	cursor: pointer;
+	height: 67px;
+	width: 328px;
+}
+
+.bot-desencriptar{
+	background-color: #0A3871;
+	border: 2px solid #FFFFFF;
+	border-radius: 24px;
+	color: #FFFFFF;
+	cursor: pointer;
+	height: 67px;
+	width: 328px;
+	margin-left: 30px;
+}
+
+.bot-copiar{
+	border: 2px solid #0A3871;
+	border-radius: 24px;
+	color: #FFFFFF;
+	cursor: pointer;
+	height: 67px;
+	width: 338px;
+	margin-left: 128px;
+	margin-top: 472px;
+	position: absolute;
+}
+
+.informacao{
+	color: #FFFFFF;
+	font-size: 8px;
+}

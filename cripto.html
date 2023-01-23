@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>ChallengeAlura!</title>
+
+		
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>			
+		<link rel="stylesheet" href="style-cripto.css">
+	</head>
+	<body>
+		<header>
+			
+				<a href="https://www.alura.com.br"><img class="alura" src="alura.png" alt="LogoAlura"></a>
+				<h2>Insira seu texto abaixo para criptografar ou descriptografar!</h2>
+		
+		</header>
+		<main>
+			<section>
+			<textarea class="text-area" cols="50" rows="5" placeholder="digite seu texto"></textarea>
+
+			<div class="informacao">
+				<h6>Apenas letras minusculas e sem acento!</h6>
+			</div>
+
+			<div class="botoes">
+				<button onclick="botEncriptar()" class="bot-encriptar">Criptografar</button>
+				<button onclick="botDesencriptar()" class="bot-desencriptar">Desencriptografar</button>
+			</div>
+		</section>
+
+		<section>
+			<textarea class="mensagem" id="texto" cols="25" rows="10"> </textarea>
+			<button onclick="copyText()" class="bot-copiar">Copiar</button>
+		</section>
+		
+		</main>
+</body>
+	<footer>
+		
+		<script src="script.js"></script>
+		<a href="https://www.linkedin.com/in/hericklopes1/"><img class="lkdn" src="linkedin.png"></a>
+
+	</footer>
+</html>
